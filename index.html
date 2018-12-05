@@ -1,12 +1,192 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Техномарт</title>
+</head>
 
-  </body>
+<body>
+  <header class="main-header">
+
+
+    <div class="main-header-top">
+      <!-- верхний "синий" -->
+
+      <div class="container">
+        <div class="logo-header"><a>
+            <h1>ТЕХНОМАРТ</h1>
+          </a></div>
+        <input class="search">
+        <a class="bookmarks" href="#bookmarks">Закладки: 0</a>
+        <a class="basket" href="#basket">Корзина: 0</a>
+        <a class="order" href="#order">Оформить заказ</a>
+      </div>
+
+    </div>
+    <div class="main-header-bottom">
+      <div class="main-header-info">
+        <h2>Интернет-магазин
+          строительных материалов
+          и инструментов для ремонта</h1>
+
+          <a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
+          <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+          <a class="login" href="#login">Войти</a>
+          <a class="registration" href="#registration">Регистрация</a>
+      </div>
+
+      <nav class="main-navigation">
+        <ul class="site-navigation">
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="company.html">Компания</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="special.html">Спецпредложения</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div> <!-- нижний "серый" -->
+
+
+
+
+  </header>
+  <main>
+    <div class="block-categories">
+      <div class="container">
+
+        <div class="category">
+          <h3>Материалы</h2>
+            <img>
+            <a class="category-btn" href="materials.html">На любой вкус</a>
+        </div>
+
+        <div class="category">
+          <h3>Инструменты</h2>
+            <img>
+            <a class="category-btn" href="tools.html">На все случаи</a>
+        </div>
+
+        <div class="category">
+          <h3>Техника</h2>
+            <img>
+            <a class="category-btn" href="tech.html">На любой вкус</a>
+        </div>
+
+        <!-- Слайдер -->
+        <div class="slider"></div>
+        <!-- конец слайдера -->
+
+        <div class="category">
+          <h3>Скидки 50%</h2>
+            <img>
+            <a class="category-btn" href="discount.html">На любой вкус</a>
+        </div>
+
+        <div class="category">
+          <h3>Доставка</h2>
+            <img>
+            <a class="category-btn" href="delivery.html">Бесплатно</a>
+        </div>
+
+        <div class="popular-products">
+          <h2>ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+          <a class="btn" href="#popular-products">Все Популярные товары</a>
+        </div>
+
+        <!-- демонстрация каталога -->
+        <div class="products-demo">
+          <!-- Внутрянка каталога ДОДЕЛАТЬ -->
+        </div>
+        <div class="popular-products">
+          <h2>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ</h2>
+          <a class="btn" href="#popular-products">Все производители</a>
+        </div>
+        <!-- Разметка для картинок производителей, графика еще не подъехала-->
+        <section class="popular-manufacturer">
+          <a href="#bosch">
+            <img src="img/bosch.jpg" alt="bosch">
+          </a>
+          <a href="#makita">
+            <img src="img/makita.jpg" alt="makita">
+          </a>
+          <a href="#dewalt">
+            <img src="img/dewalt.jpg" alt="dewalt">
+          </a>
+          <a href="#interskol">
+            <img src="img/interskol.jpg" alt="interskol">
+          </a>
+          <a href="#lg">
+            <img src="img/lg.jpg" alt="lg">
+          </a>
+          <a href="#aeg">
+            <img src="img/aeg.jpg" alt="aeg">
+          </a>
+          <a href="#metabo">
+            <img src="img/metabo.jpg" alt="metabo">
+          </a>
+        </section>
+      </div>
+    </div>
+    <div class="block-services">
+      <div class="container">
+        <section class="services"></section>
+      </div>
+    </div>
+    <div class="block-contacts">
+      <div class="container">
+        <section class="about-us">
+          <div class="info">
+            <h2>Компания «Техномарт»</h2>
+            <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не
+              оставит
+              равнодушными любителей сэкномить на гастарбайтерах.</p>
+            <p>Мы можем доставить ваш товар в самые отдаленные точки России!</p>
+            <p>Техномарт работает со многими транспортными компаниями:</p>
+            <ul class="company-list">
+              <li>Деловые линии</li>
+              <li>Автотрейдинг</li>
+              <li>ЖелДорЭкспедиция</li>
+              <a class="btn" href="company.html">Подробнее о Компании</a>
+            </ul>
+          </div>
+          <div class="contacts"></div>
+          <h2>Контакты</h2>
+          <p>
+            Вы можете забрать товар сами,<br> заехав в наш офис.
+          </p>
+          <a class="map js-map" href="img/big-map.jpg">
+            <img src="img/map.jpg" width="300" height="158" alt="google-map">
+          </a>
+          <a class="btn js-lesson" href="write-us.html">Заблудились? напишите нам!</a>
+        </section>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+<footer class="main-footer">
+    <div class="footer-top">
+      <div class="container"></div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container"></div>
+    </div>
+  </footer>
+</body>
+
 </html>
